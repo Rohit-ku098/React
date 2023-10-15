@@ -1,0 +1,60 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  
+}
+.container{
+  /* border:solid; */
+  height:10em;
+  width:70%;
+  margin: 40px auto;
+  background-color: gray;
+  padding:5px;
+}
+.inputContainer{
+  width:80%;
+  height:30px;
+  margin:auto;
+  /* border:solid black; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+.txt1{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin:10px;
+}
+.input{
+  height: 30px;
+  width: 80%;
+  outline: none;
+  padding:8px;
+  font-size: 20px;
+}
+.copybtn{
+  height: 30px;
+  width: 20%;
+  background-color: blue;
+  border: none;
+  padding:4px;
+  color:white;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.input-txt{  
+   font-size:18px;
+   font-weight: 500;
+   color: white;
+   margin:5px 10px 5px 10px;
+}
+.inputContainer2{
+  width:80%;
+  height:30px;
+  margin:10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
