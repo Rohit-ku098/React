@@ -1,0 +1,48 @@
+.box{
+    height: 6.4rem;
+    width: 36rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(51, 51, 51);
+    padding: 1vw;
+    margin: 10px;
+    /* font-size: 1vw; */
+}
+.amount-section , .currency-section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    margin: 0.3rem;
+    padding: 0.2rem 0;
+}
+.currency-section{
+    align-items: end;
+}
+.amount-section label, .currency-section label{
+    font-size: 1.3rem;
+    text-align: start;
+    color:gray;
+    margin:0.4vw 0;
+}
+
+.amount-section input{
+    outline: none;
+    background-color: white;
+    color:black;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.currency-section select{
+    width: 80px;
+    text-align: end;
+    background-color:rgb(222, 222, 217);
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+

@@ -1,0 +1,39 @@
+body{
+}
+
+#root {
+  /* background-color: red; */
+  font-size: 1vw;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.container{
+  position: relative;
+  background-color: rgb(170, 173, 175);
+  padding: 1rem;
+  border-radius: 30px;
+  border: solid  2px;
+  
+  
+}
+.swap{
+  background-color: blue;
+  height: 45px;
+  width: 100px;
+  padding: 7px;
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -58%);
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+.btn{
+  background-color: blue;
+  margin-top: 7px;
+  font-size: 1.2rem;
+}
