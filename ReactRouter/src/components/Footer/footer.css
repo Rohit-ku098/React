@@ -1,0 +1,20 @@
+footer{
+    height: 10rem;
+    background-color: rgb(212, 202, 183);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left span{
+    color: rgb(221, 101, 53);
+}
+
+footer .right{
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+}
+
+footer .right li{
+    list-style: none;
+}
